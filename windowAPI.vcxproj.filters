@@ -61,6 +61,9 @@
     <Filter Include="2DGameFramework\Camera">
       <UniqueIdentifier>{09fcfcde-3684-4d3d-b2ae-df03d33b80b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="playGround\item">
+      <UniqueIdentifier>{6ba3289b-3260-4329-9594-44466f007ceb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -159,6 +162,24 @@
     <ClInclude Include="GameScene.h">
       <Filter>playGround</Filter>
     </ClInclude>
+    <ClInclude Include="Shoes.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -241,6 +262,24 @@
     </ClCompile>
     <ClCompile Include="GameScene.cpp">
       <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoes.cpp">
+      <Filter>playGround\item</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
