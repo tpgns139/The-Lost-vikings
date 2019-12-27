@@ -1,10 +1,19 @@
 #pragma once
-class Player
+
+struct Playerinfo
 {
-protected:
 	image* _image;
 	RECT _rc;
 	POINT position;
+	int HP;
+	int count;
+};
+class Player
+{
+protected:
+	
+
+	Playerinfo _playerInfo;
 	
 public:
 	Player();
