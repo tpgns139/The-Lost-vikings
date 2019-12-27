@@ -62,12 +62,17 @@
     <Filter Include="playGround\Player">
       <UniqueIdentifier>{ca73d3de-e220-48d3-8ee8-e957d89643ac}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="playGround\Player\Erik">
       <UniqueIdentifier>{48adf927-a655-418a-ace7-da861894fba5}</UniqueIdentifier>
 =======
     <Filter Include="playGround\item">
       <UniqueIdentifier>{6ba3289b-3260-4329-9594-44466f007ceb}</UniqueIdentifier>
 >>>>>>> origin/jinyoung
+=======
+    <Filter Include="playGround\Player\Baleog">
+      <UniqueIdentifier>{5070c046-25f2-4a85-9edd-24a7edb4c9a9}</UniqueIdentifier>
+>>>>>>> origin/sunghyun
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -156,9 +161,12 @@
       <Filter>playGround</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="Erik.h">
       <Filter>playGround\Player\Erik</Filter>
     </ClInclude>
+=======
+>>>>>>> origin/sunghyun
     <ClInclude Include="PlayerManager.h">
       <Filter>playGround\Player</Filter>
     </ClInclude>
@@ -183,6 +191,9 @@
     <ClInclude Include="Fruit.h">
       <Filter>playGround\item</Filter>
 >>>>>>> origin/jinyoung
+    </ClInclude>
+    <ClInclude Include="Baleog.h">
+      <Filter>playGround\Player\Baleog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -256,9 +267,12 @@
       <Filter>playGround</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Erik.cpp">
       <Filter>playGround\Player\Erik</Filter>
     </ClCompile>
+=======
+>>>>>>> origin/sunghyun
     <ClCompile Include="PlayerManager.cpp">
       <Filter>playGround\Player</Filter>
     </ClCompile>
@@ -283,6 +297,9 @@
     <ClCompile Include="Shoes.cpp">
       <Filter>playGround\item</Filter>
 >>>>>>> origin/jinyoung
+    </ClCompile>
+    <ClCompile Include="Baleog.cpp">
+      <Filter>playGround\Player\Baleog</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

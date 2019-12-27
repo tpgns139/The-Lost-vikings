@@ -13,7 +13,8 @@ Erik::~Erik()
 
 HRESULT Erik::init()
 {
-	
+
+
 	return S_OK;
 }
 

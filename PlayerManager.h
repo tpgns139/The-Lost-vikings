@@ -1,9 +1,10 @@
 #pragma once
 #include "Player.h"
+#include "Baleog.h"
 class PlayerManager
 {
 private:
-	vector<Player> _vPlayer;
+	vector<Player*> _vPlayer;
 public:
 	PlayerManager();
 	~PlayerManager();

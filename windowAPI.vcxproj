@@ -149,16 +149,20 @@
   <ItemGroup>
     <ClInclude Include="action.h" />
     <ClInclude Include="animation.h" />
+    <ClInclude Include="Baleog.h" />
     <ClInclude Include="button.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="commonMacroFunction.h" />
     <ClInclude Include="effect.h" />
     <ClInclude Include="effectManager.h" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="Erik.h" />
 =======
     <ClInclude Include="Fruit.h" />
 >>>>>>> origin/jinyoung
+=======
+>>>>>>> origin/sunghyun
     <ClInclude Include="gameNode.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="image.h" />
@@ -199,15 +203,19 @@
   <ItemGroup>
     <ClCompile Include="action.cpp" />
     <ClCompile Include="animation.cpp" />
+    <ClCompile Include="Baleog.cpp" />
     <ClCompile Include="button.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="effect.cpp" />
     <ClCompile Include="effectManager.cpp" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="Erik.cpp" />
 =======
     <ClCompile Include="Fruit.cpp" />
 >>>>>>> origin/jinyoung
+=======
+>>>>>>> origin/sunghyun
     <ClCompile Include="gameNode.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="image.cpp" />
