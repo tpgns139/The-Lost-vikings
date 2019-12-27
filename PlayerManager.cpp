@@ -4,6 +4,7 @@
 
 PlayerManager::PlayerManager()
 {
+	
 }
 
 
@@ -13,6 +14,7 @@ PlayerManager::~PlayerManager()
 
 HRESULT PlayerManager::init()
 {
+
 
 	return S_OK;
 }
