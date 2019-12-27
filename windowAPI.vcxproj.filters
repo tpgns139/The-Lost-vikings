@@ -61,6 +61,12 @@
     <Filter Include="2DGameFramework\Camera">
       <UniqueIdentifier>{09fcfcde-3684-4d3d-b2ae-df03d33b80b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="playGround\EnemyManager">
+      <UniqueIdentifier>{5b7a1ffa-7bff-445b-9aff-a911c51e4809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\EnemyManager\Enemy">
+      <UniqueIdentifier>{8d927c7d-c367-491f-b8ca-e465db02ec44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -159,6 +165,21 @@
     <ClInclude Include="GameScene.h">
       <Filter>playGround</Filter>
     </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityRobot.h">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>playGround\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>playGround\EnemyManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -241,6 +262,21 @@
     </ClCompile>
     <ClCompile Include="GameScene.cpp">
       <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityRobot.cpp">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>playGround\EnemyManager\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>playGround\EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>playGround\EnemyManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
