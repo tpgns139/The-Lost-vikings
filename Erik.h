@@ -1,5 +1,6 @@
 #pragma once
 #include "gameNode.h"
+#include "Player.h"
 
 
 struct ErikInfo
@@ -21,7 +22,7 @@ enum LR
 };
 
 
-class Erik:public gameNode
+class Erik:public Player
 {
 private:
 

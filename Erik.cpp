@@ -35,7 +35,7 @@ HRESULT Erik::init()
 
 
 	
-
+	//_playerInfo.position.x;
 
 	_erik.pos.x = WINSIZEX / 2;
 	_erik.pos.y = WINSIZEY / 2;
@@ -71,7 +71,7 @@ void Erik::update()
 
 
 
-
+	
 	if (KEYMANAGER->isStayKeyDown('A'))
 	{
 		_erik.img = IMAGEMANAGER->findImage("E_run");
