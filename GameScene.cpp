@@ -14,7 +14,7 @@ GameScene::~GameScene()
 }
 HRESULT GameScene::init()
 {
-
+	_playerManager = new PlayerManager;
 	_playerManager->init();
 	/*IMAGEMANAGER->addFrameImage("ericIdle", "ericIdle.bmp", 0, 0, 336, 200, 4, 2, true, RGB(255, 0, 255));
 	IMAGEMANAGER->addFrameImage("character", "character.bmp", 0, 0, 325, 200, 4, 2, true, RGB(255, 0, 255));
