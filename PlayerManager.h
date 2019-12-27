@@ -1,5 +1,6 @@
 #pragma once
 #include "Player.h"
+#include "Baleog.h"
 class PlayerManager
 {
 private:
