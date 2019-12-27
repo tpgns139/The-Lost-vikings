@@ -6,12 +6,13 @@ struct Playerinfo
 	RECT _rc;
 	POINT position;
 	int HP;
+	int MaxHP;
 	int count;
+	int _CurrentFrameX, _CurrentFrameY;
 };
 class Player
 {
 protected:
-	
 
 	Playerinfo _playerInfo;
 	
