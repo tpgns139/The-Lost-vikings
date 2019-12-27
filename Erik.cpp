@@ -13,7 +13,8 @@ Erik::~Erik()
 
 HRESULT Erik::init()
 {
-	
+
+	//IMAGEMANAGER->addFrameImage("ErikIdle", "Erikidle.bmp",)
 	return S_OK;
 }
 
