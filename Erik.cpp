@@ -35,15 +35,15 @@ HRESULT Erik::init()
 
 
 	
-	//_playerInfo.position.x;
+	_playerInfo.position.x = WINSIZEX / 2;
+	_playerInfo.position.y = WINSIZEY / 2;
 
-	_erik.pos.x = WINSIZEX / 2;
-	_erik.pos.y = WINSIZEY / 2;
+	_playerInfo._image = IMAGEMANAGER->findImage("E_idle1");
 
-	_erik.count = _erik.currentFrameX = _erik.currentFrameY = 0;
+	_playerInfo.count = _playerInfo._CurrentFrameX = _playerInfo._CurrentFrameY = 0;
 
 	
-	_erik.rc = RectMakeCenter(_erik.pos.x, _erik.pos.y, _erik.img->getFrameWidth(), _erik.img->getFrameHeight());
+	_playerInfo._rc = RectMakeCenter(_playerInfo.position.x, _playerInfo.position.y, _playerInfo._image->getFrameWidth(), _playerInfo._image->getFrameHeight());
 
 
 	return S_OK;
@@ -56,17 +56,17 @@ void Erik::release()
 void Erik::update()
 {
 
-	_erik.img = IMAGEMANAGER->findImage("E_idle1");
+	_playerInfo._image = IMAGEMANAGER->findImage("E_idle1");
 
 
-	_erik.count++;
-	if (_erik.count % 10 == 0)
+	_playerInfo.count++;
+	if (_playerInfo.count % 10 == 0)
 	{
-		if (_erik.currentFrameX > _erik.img->getMaxFrameX()) _erik.currentFrameX = 0;
+		if (_playerInfo._CurrentFrameX > _playerInfo._image->getMaxFrameX()) _playerInfo._CurrentFrameX = 0;
 
-		_erik.img->setFrameX(_erik.currentFrameX);			// setFrameX에 봐야하는 프레임 x값을 매개변수로 보내준다. 
-		_erik.currentFrameX++;								// 다음 이미지를 보기 위해 값을 증가시킨다.
-		_erik.count = 0;										// 카운트를 초기화 해준다.
+		_playerInfo._image->setFrameX(_playerInfo._CurrentFrameX);			// setFrameX에 봐야하는 프레임 x값을 매개변수로 보내준다. 
+		_playerInfo._CurrentFrameX++;								// 다음 이미지를 보기 위해 값을 증가시킨다.
+		_playerInfo.count = 0;										// 카운트를 초기화 해준다.
 	}
 
 
@@ -74,30 +74,32 @@ void Erik::update()
 	
 	if (KEYMANAGER->isStayKeyDown('A'))
 	{
-		_erik.img = IMAGEMANAGER->findImage("E_run");
+		_playerInfo._image = IMAGEMANAGER->findImage("E_run");
 
-		_erik.currentFrameX--;
-		
-		_erik.pos.x -=3;
+
+
+
+		//_playerInfo._CurrentFrameX--;
+		_playerInfo.position.x -= 3;
 	}
 
 	if (KEYMANAGER->isStayKeyDown('D'))
 	{
-		_erik.img = IMAGEMANAGER->findImage("E_run");
-		_erik.pos.x += 3;
+		_playerInfo._image = IMAGEMANAGER->findImage("E_run");
+		_playerInfo.position.x += 3;
 
 	}
 
 
-	_erik.rc = RectMakeCenter(_erik.pos.x, _erik.pos.y, _erik.img->getFrameWidth(), _erik.img->getFrameHeight());
+	_playerInfo._rc = RectMakeCenter(_playerInfo.position.x, _playerInfo.position.y, _playerInfo._image->getFrameWidth(), _playerInfo._image->getFrameHeight());
 
 }
 
 void Erik::render()
 {
-	_erik.img->frameRender(getMemDC(), _erik.rc.left, _erik.rc.top);
+	_playerInfo._image->frameRender(getMemDC(), _playerInfo._rc.left, _playerInfo._rc.top);
 
-	if (KEYMANAGER->isToggleKey('1'))Rectangle(getMemDC(), _erik.rc);
+	if (KEYMANAGER->isToggleKey('1'))Rectangle(getMemDC(), _playerInfo._rc);
 
 }
 

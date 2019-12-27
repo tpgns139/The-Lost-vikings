@@ -14,7 +14,10 @@ PlayerManager::~PlayerManager()
 
 HRESULT PlayerManager::init()
 {
+	Player* _erik = new Erik;
 
+	_erik->init();
+	_vPlayer.push_back(_erik);
 
 	return S_OK;
 }

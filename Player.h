@@ -1,4 +1,8 @@
 #pragma once
+#include "gameNode.h"
+
+
+
 
 struct Playerinfo
 {
@@ -10,7 +14,7 @@ struct Playerinfo
 	int count;
 	int _CurrentFrameX, _CurrentFrameY;
 };
-class Player
+class Player : public gameNode
 {
 protected:
 
@@ -19,7 +23,7 @@ protected:
 public:
 	Player();
 	~Player();
-	HRESULT init();
+	virtual HRESULT init();
 	virtual void update();
 	virtual void render();
 };

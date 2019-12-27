@@ -3,17 +3,6 @@
 #include "Player.h"
 
 
-struct ErikInfo
-{
-	image* img;
-	POINT pos;//ÁÂÇ¥°ª position;
-	RECT rc;
-	int count;
-	int currentFrameX;
-	int currentFrameY;
-	LR _LR;
-
-};
 
 enum LR
 {
@@ -26,7 +15,7 @@ class Erik:public Player
 {
 private:
 
-	ErikInfo _erik;
+
 
 
 public:
