@@ -61,9 +61,6 @@
     <Filter Include="playGround\Player">
       <UniqueIdentifier>{ca73d3de-e220-48d3-8ee8-e957d89643ac}</UniqueIdentifier>
     </Filter>
-    <Filter Include="playGround\Player\Erik">
-      <UniqueIdentifier>{48adf927-a655-418a-ace7-da861894fba5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -150,9 +147,6 @@
     <ClInclude Include="GameScene.h">
       <Filter>playGround</Filter>
     </ClInclude>
-    <ClInclude Include="Erik.h">
-      <Filter>playGround\Player\Erik</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerManager.h">
       <Filter>playGround\Player</Filter>
     </ClInclude>
@@ -229,9 +223,6 @@
     </ClCompile>
     <ClCompile Include="GameScene.cpp">
       <Filter>playGround</Filter>
-    </ClCompile>
-    <ClCompile Include="Erik.cpp">
-      <Filter>playGround\Player\Erik</Filter>
     </ClCompile>
     <ClCompile Include="PlayerManager.cpp">
       <Filter>playGround\Player</Filter>
