@@ -11,8 +11,10 @@ Player::~Player()
 {
 }
 
-HRESULT Player::init()
+HRESULT Player::init(PlayerName playerName)
 {
+	
+
 	return S_OK;
 }
 
@@ -22,4 +24,5 @@ void Player::update()
 
 void Player::render()
 {
+	
 }

@@ -61,8 +61,13 @@
     <Filter Include="playGround\Player">
       <UniqueIdentifier>{ca73d3de-e220-48d3-8ee8-e957d89643ac}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="playGround\Player\Erik">
       <UniqueIdentifier>{43be2808-8c02-4042-b06d-18a6bcfc2692}</UniqueIdentifier>
+=======
+    <Filter Include="playGround\Player\Baleog">
+      <UniqueIdentifier>{5070c046-25f2-4a85-9edd-24a7edb4c9a9}</UniqueIdentifier>
+>>>>>>> 6c35325ced9e672e524765ac8e11232dcc70c874
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -156,8 +161,13 @@
     <ClInclude Include="Player.h">
       <Filter>playGround\Player</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Erik.h">
       <Filter>playGround\Player\Erik</Filter>
+=======
+    <ClInclude Include="Baleog.h">
+      <Filter>playGround\Player\Baleog</Filter>
+>>>>>>> 6c35325ced9e672e524765ac8e11232dcc70c874
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -236,8 +246,13 @@
     <ClCompile Include="Player.cpp">
       <Filter>playGround\Player</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Erik.cpp">
       <Filter>playGround\Player\Erik</Filter>
+=======
+    <ClCompile Include="Baleog.cpp">
+      <Filter>playGround\Player\Baleog</Filter>
+>>>>>>> 6c35325ced9e672e524765ac8e11232dcc70c874
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
