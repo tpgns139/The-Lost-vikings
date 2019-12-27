@@ -1,5 +1,7 @@
 #pragma once
-class Slime
+#include "Enemy.h"
+class Slime :public Enemy
+
 {
 public:
 	Slime();

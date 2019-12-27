@@ -1,5 +1,8 @@
 #pragma once
-class SecurityRobot
+#include "Enemy.h"
+
+class SecurityRobot :public Enemy
+
 {
 public:
 	SecurityRobot();

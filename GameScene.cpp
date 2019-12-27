@@ -10,7 +10,12 @@ GameScene::~GameScene()
 {
 }
 HRESULT GameScene::init()
+
+
 {
+
+	_em = new EnemyManager;
+	_em->init();
 	/*IMAGEMANAGER->addFrameImage("ericIdle", "ericIdle.bmp", 0, 0, 336, 200, 4, 2, true, RGB(255, 0, 255));
 	IMAGEMANAGER->addFrameImage("character", "character.bmp", 0, 0, 325, 200, 4, 2, true, RGB(255, 0, 255));
 
@@ -31,12 +36,14 @@ HRESULT GameScene::init()
 	IMAGEMANAGER->addImage("과일", "과일.bmp", 50, 56, true, RGB(255, 0, 255));
 	IMAGEMANAGER->addImage("신발", "신발.bmp", 50, 56, true, RGB(255, 0, 255));
 
-	IMAGEMANAGER->addImage("배경", "Map.bmp", 4000, 1984, true, RGB(255, 0, 255));*/
+	*/
+	IMAGEMANAGER->addImage("배경", "Map.bmp", 4000, 1984, true, RGB(255, 0, 255));
 	return S_OK;
 }
 
 void GameScene::update()
 {
+	_em->update();
 	/*count++;
 	if (count % 5 == 0)
 	{
@@ -52,6 +59,7 @@ void GameScene::update()
 
 void GameScene::render()
 {
+	_em->render();
 	//IMAGEMANAGER->findImage("배경")->render(getMemDC(), 0, 0, CAMERA->getCameraXpos(), CAMERA->getCameraYpos(), WINSIZEX, WINSIZEY);
 
 

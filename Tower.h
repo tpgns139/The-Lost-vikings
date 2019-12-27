@@ -1,5 +1,9 @@
 #pragma once
-class Tower
+
+#include "Enemy.h"
+
+
+class Tower :public Enemy
 {
 public:
 	Tower();
