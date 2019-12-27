@@ -46,9 +46,6 @@
     <Filter Include="2DGameFramework\effect">
       <UniqueIdentifier>{0dbf570f-42b2-481b-8632-983fa151eedb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="playGround\starScene">
-      <UniqueIdentifier>{16739aa5-e0ee-4ff8-b124-fc4e90aa2ac4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="2DGameFramework\button">
       <UniqueIdentifier>{edec0274-25d5-4cd4-9858-73c06504f062}</UniqueIdentifier>
     </Filter>
@@ -61,11 +58,24 @@
     <Filter Include="2DGameFramework\Camera">
       <UniqueIdentifier>{09fcfcde-3684-4d3d-b2ae-df03d33b80b6}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="playGround\EnemyManager">
       <UniqueIdentifier>{5b7a1ffa-7bff-445b-9aff-a911c51e4809}</UniqueIdentifier>
     </Filter>
     <Filter Include="playGround\EnemyManager\Enemy">
       <UniqueIdentifier>{8d927c7d-c367-491f-b8ca-e465db02ec44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player">
+      <UniqueIdentifier>{ca73d3de-e220-48d3-8ee8-e957d89643ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player\Erik">
+      <UniqueIdentifier>{48adf927-a655-418a-ace7-da861894fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\item">
+      <UniqueIdentifier>{6ba3289b-3260-4329-9594-44466f007ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player\Baleog">
+      <UniqueIdentifier>{5070c046-25f2-4a85-9edd-24a7edb4c9a9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -132,18 +142,6 @@
     <ClInclude Include="soundManager.h">
       <Filter>2DGameFramework\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="ship.h">
-      <Filter>playGround\starScene</Filter>
-    </ClInclude>
-    <ClInclude Include="battle.h">
-      <Filter>playGround\starScene</Filter>
-    </ClInclude>
-    <ClInclude Include="selectScene.h">
-      <Filter>playGround\starScene</Filter>
-    </ClInclude>
-    <ClInclude Include="starScene.h">
-      <Filter>playGround\starScene</Filter>
-    </ClInclude>
     <ClInclude Include="sceneManager.h">
       <Filter>2DGameFramework\Manager</Filter>
     </ClInclude>
@@ -179,6 +177,36 @@
     </ClInclude>
     <ClInclude Include="EnemyManager.h">
       <Filter>playGround\EnemyManager</Filter>
+    </Filter>
+    <ClInclude Include="Erik.h">
+      <Filter>playGround\Player\Erik</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoes.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Baleog.h">
+      <Filter>playGround\Player\Baleog</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -230,18 +258,6 @@
     <ClCompile Include="soundManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="ship.cpp">
-      <Filter>playGround\starScene</Filter>
-    </ClCompile>
-    <ClCompile Include="battle.cpp">
-      <Filter>playGround\starScene</Filter>
-    </ClCompile>
-    <ClCompile Include="selectScene.cpp">
-      <Filter>playGround\starScene</Filter>
-    </ClCompile>
-    <ClCompile Include="starScene.cpp">
-      <Filter>playGround\starScene</Filter>
-    </ClCompile>
     <ClCompile Include="sceneManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
@@ -277,6 +293,36 @@
     </ClCompile>
     <ClCompile Include="EnemyManager.cpp">
       <Filter>playGround\EnemyManager</Filter>
+ </ClCompile>
+    <ClCompile Include="Erik.cpp">
+      <Filter>playGround\Player\Erik</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>playGround\Player</Filter>
+</ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoes.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Baleog.cpp">
+      <Filter>playGround\Player\Baleog</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
