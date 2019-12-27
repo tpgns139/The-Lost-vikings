@@ -62,7 +62,7 @@
       <UniqueIdentifier>{ca73d3de-e220-48d3-8ee8-e957d89643ac}</UniqueIdentifier>
     </Filter>
     <Filter Include="playGround\Player\Erik">
-      <UniqueIdentifier>{48adf927-a655-418a-ace7-da861894fba5}</UniqueIdentifier>
+      <UniqueIdentifier>{43be2808-8c02-4042-b06d-18a6bcfc2692}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -150,14 +150,14 @@
     <ClInclude Include="GameScene.h">
       <Filter>playGround</Filter>
     </ClInclude>
-    <ClInclude Include="Erik.h">
-      <Filter>playGround\Player\Erik</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerManager.h">
       <Filter>playGround\Player</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Erik.h">
+      <Filter>playGround\Player\Erik</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -230,14 +230,14 @@
     <ClCompile Include="GameScene.cpp">
       <Filter>playGround</Filter>
     </ClCompile>
-    <ClCompile Include="Erik.cpp">
-      <Filter>playGround\Player\Erik</Filter>
-    </ClCompile>
     <ClCompile Include="PlayerManager.cpp">
       <Filter>playGround\Player</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Erik.cpp">
+      <Filter>playGround\Player\Erik</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

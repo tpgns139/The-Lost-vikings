@@ -1,15 +1,32 @@
 #pragma once
 #include "gameNode.h"
-struct PlayerErik
+
+
+struct ErikInfo
 {
-	image* _Erik;
-	float _x, _y;
-	float _speed;
+	image* img;
+	POINT pos;//ÁÂÇ¥°ª position;
+	RECT rc;
+	int count;
+	int currentFrameX;
+	int currentFrameY;
+	LR _LR;
 
 };
-class Erik
+
+enum LR
+{
+	LEFT,
+	RIGHT
+};
+
+
+class Erik:public gameNode
 {
 private:
+
+	ErikInfo _erik;
+
 
 public:
 	Erik();
@@ -21,4 +38,5 @@ public:
 	virtual void render();
 	
 };
+
 

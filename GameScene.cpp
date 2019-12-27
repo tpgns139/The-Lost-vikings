@@ -16,6 +16,9 @@ HRESULT GameScene::init()
 {
 	_playerManager = new PlayerManager;
 	_playerManager->init();
+	_erik = new Erik;
+	_erik->init();
+
 	/*IMAGEMANAGER->addFrameImage("ericIdle", "ericIdle.bmp", 0, 0, 336, 200, 4, 2, true, RGB(255, 0, 255));
 	IMAGEMANAGER->addFrameImage("character", "character.bmp", 0, 0, 325, 200, 4, 2, true, RGB(255, 0, 255));
 
@@ -43,6 +46,7 @@ HRESULT GameScene::init()
 void GameScene::update()
 {
 	_playerManager->update();
+	_erik->update();
 	/*count++;
 	if (count % 5 == 0)
 	{
@@ -59,6 +63,7 @@ void GameScene::update()
 void GameScene::render()
 {
 	_playerManager->render();
+	_erik->render();
 	//IMAGEMANAGER->findImage("¹è°æ")->render(getMemDC(), 0, 0, CAMERA->getCameraXpos(), CAMERA->getCameraYpos(), WINSIZEX, WINSIZEY);
 
 
